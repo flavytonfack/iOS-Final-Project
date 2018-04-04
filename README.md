@@ -10,7 +10,7 @@ MUST HAVE FEATURES: App will send daily notification about solving algorithm que
          Home Tab/ Search Tab/ Read Tab / Questions Tab/ Profil Tab.
          
 NICE TO HAVE FEATURES: Daily reminder to solve coding challenge.
-                       Hint for solving coding challenges.
+                       Hint for solving coding challenge.
 
 ESTIMATE TIME: It might take up to 60 hours to implement it
 
