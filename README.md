@@ -1,6 +1,6 @@
 # iOS-Final-Project
 
-REVIEWER: Peter Lin & Regine Manuel
+REVIEWERS: Peter Lin & Regine Manuel
 
 An app that will help students get prepared for coding interviews. 
 
