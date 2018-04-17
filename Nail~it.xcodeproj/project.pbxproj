@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB5BB02F2085356700EF8BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5BB02E2085356700EF8BF2 /* AppDelegate.swift */; };
+		FB5BB0312085356700EF8BF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5BB0302085356700EF8BF2 /* ViewController.swift */; };
+		FB5BB0342085356700EF8BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5BB0322085356700EF8BF2 /* Main.storyboard */; };
+		FB5BB0372085356700EF8BF2 /* Nail_it.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB5BB0352085356700EF8BF2 /* Nail_it.xcdatamodeld */; };
+		FB5BB0392085356700EF8BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5BB0382085356700EF8BF2 /* Assets.xcassets */; };
+		FB5BB03C2085356700EF8BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5BB03A2085356700EF8BF2 /* LaunchScreen.storyboard */; };
+		FB5BB0472085356700EF8BF2 /* Nail_itTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5BB0462085356700EF8BF2 /* Nail_itTests.swift */; };
+		FB5BB0522085356700EF8BF2 /* Nail_itUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5BB0512085356700EF8BF2 /* Nail_itUITests.swift */; };
+		FB7B1CAC20867068000A4BC2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7B1CAB20867068000A4BC2 /* SignInViewController.swift */; };
+		FB7B1CAE208670F7000A4BC2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7B1CAD208670F7000A4BC2 /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB5BB0432085356700EF8BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5BB0232085356600EF8BF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5BB02A2085356700EF8BF2;
+			remoteInfo = "Nail~it";
+		};
+		FB5BB04E2085356700EF8BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5BB0232085356600EF8BF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5BB02A2085356700EF8BF2;
+			remoteInfo = "Nail~it";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB5BB02B2085356700EF8BF2 /* Nail~it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nail~it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5BB02E2085356700EF8BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB5BB0302085356700EF8BF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB5BB0332085356700EF8BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB5BB0362085356700EF8BF2 /* Nail_it.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nail_it.xcdatamodel; sourceTree = "<group>"; };
+		FB5BB0382085356700EF8BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB5BB03B2085356700EF8BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB5BB03D2085356700EF8BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5BB0422085356700EF8BF2 /* Nail~itTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nail~itTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5BB0462085356700EF8BF2 /* Nail_itTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nail_itTests.swift; sourceTree = "<group>"; };
+		FB5BB0482085356700EF8BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5BB04D2085356700EF8BF2 /* Nail~itUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nail~itUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5BB0512085356700EF8BF2 /* Nail_itUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nail_itUITests.swift; sourceTree = "<group>"; };
+		FB5BB0532085356700EF8BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7B1CAB20867068000A4BC2 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		FB7B1CAD208670F7000A4BC2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB5BB0282085356700EF8BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5BB03F2085356700EF8BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5BB04A2085356700EF8BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB5BB0222085356600EF8BF2 = {
+			isa = PBXGroup;
+			children = (
+				FB5BB02D2085356700EF8BF2 /* Nail~it */,
+				FB5BB0452085356700EF8BF2 /* Nail~itTests */,
+				FB5BB0502085356700EF8BF2 /* Nail~itUITests */,
+				FB5BB02C2085356700EF8BF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB5BB02C2085356700EF8BF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5BB02B2085356700EF8BF2 /* Nail~it.app */,
+				FB5BB0422085356700EF8BF2 /* Nail~itTests.xctest */,
+				FB5BB04D2085356700EF8BF2 /* Nail~itUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB5BB02D2085356700EF8BF2 /* Nail~it */ = {
+			isa = PBXGroup;
+			children = (
+				FB5BB02E2085356700EF8BF2 /* AppDelegate.swift */,
+				FB5BB0302085356700EF8BF2 /* ViewController.swift */,
+				FB5BB0322085356700EF8BF2 /* Main.storyboard */,
+				FB5BB0382085356700EF8BF2 /* Assets.xcassets */,
+				FB5BB03A2085356700EF8BF2 /* LaunchScreen.storyboard */,
+				FB5BB03D2085356700EF8BF2 /* Info.plist */,
+				FB5BB0352085356700EF8BF2 /* Nail_it.xcdatamodeld */,
+				FB7B1CAB20867068000A4BC2 /* SignInViewController.swift */,
+				FB7B1CAD208670F7000A4BC2 /* SignUpViewController.swift */,
+			);
+			path = "Nail~it";
+			sourceTree = "<group>";
+		};
+		FB5BB0452085356700EF8BF2 /* Nail~itTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5BB0462085356700EF8BF2 /* Nail_itTests.swift */,
+				FB5BB0482085356700EF8BF2 /* Info.plist */,
+			);
+			path = "Nail~itTests";
+			sourceTree = "<group>";
+		};
+		FB5BB0502085356700EF8BF2 /* Nail~itUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5BB0512085356700EF8BF2 /* Nail_itUITests.swift */,
+				FB5BB0532085356700EF8BF2 /* Info.plist */,
+			);
+			path = "Nail~itUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB5BB02A2085356700EF8BF2 /* Nail~it */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5BB0562085356700EF8BF2 /* Build configuration list for PBXNativeTarget "Nail~it" */;
+			buildPhases = (
+				FB5BB0272085356700EF8BF2 /* Sources */,
+				FB5BB0282085356700EF8BF2 /* Frameworks */,
+				FB5BB0292085356700EF8BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nail~it";
+			productName = "Nail~it";
+			productReference = FB5BB02B2085356700EF8BF2 /* Nail~it.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB5BB0412085356700EF8BF2 /* Nail~itTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5BB0592085356700EF8BF2 /* Build configuration list for PBXNativeTarget "Nail~itTests" */;
+			buildPhases = (
+				FB5BB03E2085356700EF8BF2 /* Sources */,
+				FB5BB03F2085356700EF8BF2 /* Frameworks */,
+				FB5BB0402085356700EF8BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5BB0442085356700EF8BF2 /* PBXTargetDependency */,
+			);
+			name = "Nail~itTests";
+			productName = "Nail~itTests";
+			productReference = FB5BB0422085356700EF8BF2 /* Nail~itTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB5BB04C2085356700EF8BF2 /* Nail~itUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5BB05C2085356700EF8BF2 /* Build configuration list for PBXNativeTarget "Nail~itUITests" */;
+			buildPhases = (
+				FB5BB0492085356700EF8BF2 /* Sources */,
+				FB5BB04A2085356700EF8BF2 /* Frameworks */,
+				FB5BB04B2085356700EF8BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5BB04F2085356700EF8BF2 /* PBXTargetDependency */,
+			);
+			name = "Nail~itUITests";
+			productName = "Nail~itUITests";
+			productReference = FB5BB04D2085356700EF8BF2 /* Nail~itUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5BB0232085356600EF8BF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "FLAVY TONFACK";
+				TargetAttributes = {
+					FB5BB02A2085356700EF8BF2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FB5BB0412085356700EF8BF2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB5BB02A2085356700EF8BF2;
+					};
+					FB5BB04C2085356700EF8BF2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB5BB02A2085356700EF8BF2;
+					};
+				};
+			};
+			buildConfigurationList = FB5BB0262085356600EF8BF2 /* Build configuration list for PBXProject "Nail~it" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB5BB0222085356600EF8BF2;
+			productRefGroup = FB5BB02C2085356700EF8BF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB5BB02A2085356700EF8BF2 /* Nail~it */,
+				FB5BB0412085356700EF8BF2 /* Nail~itTests */,
+				FB5BB04C2085356700EF8BF2 /* Nail~itUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB5BB0292085356700EF8BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5BB03C2085356700EF8BF2 /* LaunchScreen.storyboard in Resources */,
+				FB5BB0392085356700EF8BF2 /* Assets.xcassets in Resources */,
+				FB5BB0342085356700EF8BF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5BB0402085356700EF8BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5BB04B2085356700EF8BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB5BB0272085356700EF8BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7B1CAC20867068000A4BC2 /* SignInViewController.swift in Sources */,
+				FB5BB0372085356700EF8BF2 /* Nail_it.xcdatamodeld in Sources */,
+				FB5BB0312085356700EF8BF2 /* ViewController.swift in Sources */,
+				FB5BB02F2085356700EF8BF2 /* AppDelegate.swift in Sources */,
+				FB7B1CAE208670F7000A4BC2 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5BB03E2085356700EF8BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5BB0472085356700EF8BF2 /* Nail_itTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5BB0492085356700EF8BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5BB0522085356700EF8BF2 /* Nail_itUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB5BB0442085356700EF8BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5BB02A2085356700EF8BF2 /* Nail~it */;
+			targetProxy = FB5BB0432085356700EF8BF2 /* PBXContainerItemProxy */;
+		};
+		FB5BB04F2085356700EF8BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5BB02A2085356700EF8BF2 /* Nail~it */;
+			targetProxy = FB5BB04E2085356700EF8BF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB5BB0322085356700EF8BF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5BB0332085356700EF8BF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB5BB03A2085356700EF8BF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5BB03B2085356700EF8BF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB5BB0542085356700EF8BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB5BB0552085356700EF8BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB5BB0572085356700EF8BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSN524F7T9;
+				INFOPLIST_FILE = "Nail~it/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FLAVYTONFACK.Nail-it";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB5BB0582085356700EF8BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSN524F7T9;
+				INFOPLIST_FILE = "Nail~it/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FLAVYTONFACK.Nail-it";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB5BB05A2085356700EF8BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSN524F7T9;
+				INFOPLIST_FILE = "Nail~itTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FLAVYTONFACK.Nail-itTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nail~it.app/Nail~it";
+			};
+			name = Debug;
+		};
+		FB5BB05B2085356700EF8BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSN524F7T9;
+				INFOPLIST_FILE = "Nail~itTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FLAVYTONFACK.Nail-itTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nail~it.app/Nail~it";
+			};
+			name = Release;
+		};
+		FB5BB05D2085356700EF8BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSN524F7T9;
+				INFOPLIST_FILE = "Nail~itUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FLAVYTONFACK.Nail-itUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nail~it";
+			};
+			name = Debug;
+		};
+		FB5BB05E2085356700EF8BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSN524F7T9;
+				INFOPLIST_FILE = "Nail~itUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FLAVYTONFACK.Nail-itUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nail~it";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB5BB0262085356600EF8BF2 /* Build configuration list for PBXProject "Nail~it" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5BB0542085356700EF8BF2 /* Debug */,
+				FB5BB0552085356700EF8BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5BB0562085356700EF8BF2 /* Build configuration list for PBXNativeTarget "Nail~it" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5BB0572085356700EF8BF2 /* Debug */,
+				FB5BB0582085356700EF8BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5BB0592085356700EF8BF2 /* Build configuration list for PBXNativeTarget "Nail~itTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5BB05A2085356700EF8BF2 /* Debug */,
+				FB5BB05B2085356700EF8BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5BB05C2085356700EF8BF2 /* Build configuration list for PBXNativeTarget "Nail~itUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5BB05D2085356700EF8BF2 /* Debug */,
+				FB5BB05E2085356700EF8BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB5BB0352085356700EF8BF2 /* Nail_it.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB5BB0362085356700EF8BF2 /* Nail_it.xcdatamodel */,
+			);
+			currentVersion = FB5BB0362085356700EF8BF2 /* Nail_it.xcdatamodel */;
+			path = Nail_it.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB5BB0232085356600EF8BF2 /* Project object */;
+}
