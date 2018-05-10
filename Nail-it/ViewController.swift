@@ -13,6 +13,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     
     func numberOfSections(in tableView: UITableView) -> Int {
+        tableView.backgroundColor = UIColor(red:0.98, green:0.82, blue:0.65, alpha:1.0)
         return 4
     }
     
@@ -44,12 +45,34 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         case 3:
             cell.textLabel?.text = StacksQuestions[indexPath.row]
             default:
-                cell.textLabel?.text = "This shouldn't happen"
+                cell.textLabel?.text = "This should not happen"
         }
+        
+        cell.imageView?.image = UIImage(named: "bullet")
+        cell.accessoryType = .disclosureIndicator
+        
+    
         
         return cell
     }
     
+    
+    //Title header for section
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        switch section {
+        case 0:
+            return "Binary Tree"
+        case 1:
+            return "Binary Search Tree"
+        case 2:
+            return "Strings"
+        case 3:
+            return "Stacks"
+        default:
+            return nil
+        }
+    }
     
     
     
