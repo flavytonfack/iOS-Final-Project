@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        tableView.backgroundColor = UIColor(red:0.98, green:0.82, blue:0.65, alpha:1.0)
+        //tableView.backgroundColor = UIColor(red:0.98, green:0.82, blue:0.65, alpha:1.0)
         return 4
     }
     
@@ -50,6 +50,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         cell.imageView?.image = UIImage(named: "bullet")
         cell.accessoryType = .disclosureIndicator
+        cell.backgroundColor = UIColor(red:0.88, green:0.86, blue:0.85, alpha:1.0)
+        cell.textLabel?.font = UIFont(name: (cell.textLabel?.font.fontName)!, size:18)
         
     
         
@@ -58,8 +60,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     
     //Title header for section
-    
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        tableView.backgroundColor = UIColor(red:0.98, green:0.92, blue:0.84, alpha:1.0)
         switch section {
         case 0:
             return "Binary Tree"
