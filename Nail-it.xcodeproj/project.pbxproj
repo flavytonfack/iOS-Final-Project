@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB1B52E620A520510016AAA2 /* DataStructuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1B52E520A520510016AAA2 /* DataStructuresViewController.swift */; };
 		FBF2DA59209AA47D00424A4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF2DA58209AA47D00424A4C /* AppDelegate.swift */; };
 		FBF2DA5B209AA47D00424A4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF2DA5A209AA47D00424A4C /* ViewController.swift */; };
 		FBF2DA5E209AA47D00424A4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF2DA5C209AA47D00424A4C /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB1B52E520A520510016AAA2 /* DataStructuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresViewController.swift; sourceTree = "<group>"; };
 		FBF2DA55209AA47D00424A4C /* Nail-it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nail-it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF2DA58209AA47D00424A4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBF2DA5A209AA47D00424A4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				FBF2DA58209AA47D00424A4C /* AppDelegate.swift */,
 				FBF2DA5A209AA47D00424A4C /* ViewController.swift */,
+				FB1B52E520A520510016AAA2 /* DataStructuresViewController.swift */,
 				FBF2DA5C209AA47D00424A4C /* Main.storyboard */,
 				FBF2DA5F209AA47D00424A4C /* Assets.xcassets */,
 				FBF2DA61209AA47D00424A4C /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB1B52E620A520510016AAA2 /* DataStructuresViewController.swift in Sources */,
 				FBF2DA5B209AA47D00424A4C /* ViewController.swift in Sources */,
 				FBF2DA59209AA47D00424A4C /* AppDelegate.swift in Sources */,
 			);
