@@ -1,26 +1,33 @@
 //
-//  ViewController.swift
+//  DetailsViewController.swift
 //  Nail-it
 //
-//  Created by Flavy Tonfack on 5/2/18.
+//  Created by Flavy Tonfack on 5/13/18.
 //  Copyright © 2018 FLAVY TONFACK. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class DetailsViewController: UIViewController {
+    
+    @IBOutlet weak var labelView: UILabel!
+    
+    var stringPassed = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        labelView.text = stringPassed
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+
 
 
 }
-

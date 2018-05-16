@@ -82,6 +82,35 @@ class DataStructuresViewController: UIViewController, UITableViewDataSource, UIT
         header.textLabel?.textColor = UIColor.black
     }
     
+    var selectedIndex: Int!
+    var selectedSection: Int!
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       selectedIndex = indexPath.row
+        selectedSection = indexPath.section
+        performSegue(withIdentifier: "showDetails", sender: self)
+    
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+       if let detailsViewController = segue.destination as? DetailsViewController {
+           //detailsViewController.stringPassed =  BinaryTreeQuestions[selectedIndex]
+        switch selectedSection {
+        case 0:
+            detailsViewController.stringPassed =  BinaryTreeQuestions[selectedIndex]
+        case 1:
+             detailsViewController.stringPassed =  BinarySearchTreeQuestions[selectedIndex]
+        case 2:
+            detailsViewController.stringPassed =  StringsQuestions[selectedIndex]
+        case 3:
+            detailsViewController.stringPassed =  StacksQuestions[selectedIndex]
+        default :
+            return
+        }
+        }
+       
+        
+    }
     
     //create string arrays of questions
     
